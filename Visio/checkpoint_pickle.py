@@ -1,7 +1,7 @@
 import pickle
 
 load = pickle.load
-
+# class created
 class Empty:
     pass
 

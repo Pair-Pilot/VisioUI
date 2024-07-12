@@ -15,7 +15,7 @@
   },
   "pad_token": "<|endoftext|>",
   "unk_token": {
-    "content": "<|endoftext|>",
+    "content": "<|endoftexts|>",
     "lstrip": false,
     "normalized": true,
     "rstrip": false,

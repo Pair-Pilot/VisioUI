@@ -15,7 +15,7 @@ from typing_extensions import NotRequired
 from comfy.cli_args import DEFAULT_VERSION_STRING
 
 
-REQUEST_TIMEOUT = 10  # seconds
+REQUEST_TIMEOUT = 10  # seconds.
 
 
 class Asset(TypedDict):
