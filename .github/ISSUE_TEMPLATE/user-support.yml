@@ -1,5 +1,5 @@
 name: User Support
-description: "Use this if you need help with something, or you're experiencing an issue."
+description: "Use this if you need help with something, or you are experiencing an issue."
 labels: [ "User Support" ]
 body:
     - type: markdown

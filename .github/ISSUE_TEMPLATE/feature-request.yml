@@ -1,6 +1,6 @@
 name: Feature Request
 description: "You have an idea for something new you would like to see added to ComfyUI's core."
-labels: [ "Feature" ]
+labels: [ "Features" ]
 body:
     - type: markdown
       attributes:

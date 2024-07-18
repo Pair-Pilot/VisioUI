@@ -1,6 +1,6 @@
 blank_issues_enabled: true
 contact_links:
-  - name: ComfyUI Frontend Issues
+  - name: ComfyUI Frontend Issue
     url: https://github.com/Comfy-Org/ComfyUI_frontend/issues
     about: Issues related to the ComfyUI frontend (display issues, user interaction bugs), please go to the frontend repo to file the issue
   - name: ComfyUI Matrix Space

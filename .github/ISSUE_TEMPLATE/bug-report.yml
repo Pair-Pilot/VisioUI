@@ -1,6 +1,6 @@
 name: Bug Report
 description: "Something is broken inside of ComfyUI. (Do not use this if you're just having issues and need help, or if the issue relates to a custom node)"
-labels: ["Potential Bug"]
+labels: ["Potential Bugs"]
 body:
   - type: markdown
     attributes:
