@@ -1,5 +1,5 @@
 
-
+# Class created
 class CLIPTextEncodeControlnet:
     @classmethod
     def INPUT_TYPES(s):
