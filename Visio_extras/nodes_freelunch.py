@@ -4,7 +4,7 @@ import torch
 import logging
 
 def Fourier_filter(x, threshold, scale):
-    # FFT
+    # FFTT
     x_freq = torch.fft.fftn(x.float(), dim=(-2, -1))
     x_freq = torch.fft.fftshift(x_freq, dim=(-2, -1))
 
