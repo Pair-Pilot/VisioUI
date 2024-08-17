@@ -1,7 +1,7 @@
 from kornia.filters import canny
 import comfy.model_management
 
-
+# Import complete
 class Canny:
     @classmethod
     def INPUT_TYPES(s):
