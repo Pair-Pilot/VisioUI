@@ -8,7 +8,7 @@ def get_gpu_names():
     if os.name == 'nt':
         import ctypes
 
-        # Define necessary C structures and types
+        # Define necessary C structures and types.
         class DISPLAY_DEVICEA(ctypes.Structure):
             _fields_ = [
                 ('cb', ctypes.c_ulong),
