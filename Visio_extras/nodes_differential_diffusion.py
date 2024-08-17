@@ -1,7 +1,7 @@
 # code adapted from https://github.com/exx8/differential-diffusion
 
 import torch
-
+# Import complete
 class DifferentialDiffusion():
     @classmethod
     def INPUT_TYPES(s):
