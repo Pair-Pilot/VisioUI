@@ -2,7 +2,7 @@ import comfy.utils
 import folder_paths
 import torch
 import logging
-
+# Import complete
 def load_hypernetwork_patch(path, strength):
     sd = comfy.utils.load_torch_file(path, safe_load=True)
     activation_func = sd.get('activation_func', 'linear')
