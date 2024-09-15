@@ -1,7 +1,7 @@
 import torch
 import nodes
 import comfy.utils
-
+# Import complete
 def camera_embeddings(elevation, azimuth):
     elevation = torch.as_tensor([elevation])
     azimuth = torch.as_tensor([azimuth])
