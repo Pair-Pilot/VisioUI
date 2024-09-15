@@ -1,8 +1,8 @@
 from comfy.cldm.control_types import UNION_CONTROLNET_TYPES
 import nodes
 import comfy.utils
-
-S# Set_Union_Control_Net_Type function added through class method
+# Import complete
+# Set_Union_Control_Net_Type function added through class method
 class SetUnionControlNetType:
     @classmethod
     def INPUT_TYPES(s):
