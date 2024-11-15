@@ -6,7 +6,7 @@ import math
 from einops import rearrange, repeat
 from comfy.ldm.modules.attention import optimized_attention
 import comfy.samplers
-
+# Import complete
 # from comfy/ldm/modules/attention.py
 # but modified to return attention scores as well as output
 def attention_basic_with_sim(q, k, v, heads, mask=None, attn_precision=None):
