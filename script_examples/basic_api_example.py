@@ -1,7 +1,7 @@
 import json
 from urllib import request
 
-#This is the ComfyUI api prompt format.
+#This is the ComfyUI api prompt format
 
 #If you want it for a specific workflow you can "enable dev mode options"
 #in the settings of the UI (gear beside the "Queue Size: ") this will enable
