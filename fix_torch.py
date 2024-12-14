@@ -4,7 +4,7 @@ import os
 import ctypes
 import logging
 
-# libomp torch fix
+# libomp torch fix.
 def fix_pytorch_libomp():
     """
     Fix PyTorch libomp DLL issue on Windows by copying the correct DLL file if needed.
