@@ -3,7 +3,7 @@ import shutil
 
 base_path = os.path.dirname(os.path.realpath(__file__))
 
-# Windows updater change call function
+# Windows updater change call function.
 def update_windows_updater():
     top_path = os.path.dirname(base_path)
     updater_path = os.path.join(base_path, ".ci/update_windows/update.py")
