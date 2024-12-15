@@ -1,5 +1,5 @@
 from nodes import MAX_RESOLUTION
-
+# from nodes complete
 class CLIPTextEncodePixArtAlpha:
     @classmethod
     def INPUT_TYPES(s):
