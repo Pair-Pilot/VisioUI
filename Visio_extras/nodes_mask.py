@@ -2,7 +2,7 @@ import numpy as np
 import scipy.ndimage
 import torch
 import comfy.utils
-
+# Import complete
 from nodes import MAX_RESOLUTION
 
 def composite(destination, source, x, y, mask = None, multiplier = 8, resize_source = False):
