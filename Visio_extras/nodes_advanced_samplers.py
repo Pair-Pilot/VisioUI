@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from tqdm.auto import trange
 
-# import complete
+# import complete .
 @torch.no_grad()
 def sample_lcm_upscale(model, x, sigmas, extra_args=None, callback=None, disable=None, total_upscale=2.0, upscale_method="bislerp", upscale_steps=None):
     extra_args = {} if extra_args is None else extra_args
