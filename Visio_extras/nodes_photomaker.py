@@ -4,7 +4,7 @@ import folder_paths
 import comfy.clip_model
 import comfy.clip_vision
 import comfy.ops
-
+# complete
 # code for model from: https://github.com/TencentARC/PhotoMaker/blob/main/photomaker/model.py under Apache License Version 2.0
 VISION_CONFIG_DICT = {
     "hidden_size": 1024,
