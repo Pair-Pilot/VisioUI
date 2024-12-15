@@ -11,6 +11,7 @@ import hashlib
 import node_helpers
 from comfy.cli_args import args
 # Empty Latent Audio class method final
+# Import complete
 class EmptyLatentAudio:
     def __init__(self):
         self.device = comfy.model_management.intermediate_device()
