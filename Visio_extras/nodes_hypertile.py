@@ -1,5 +1,5 @@
 #Taken from: https://github.com/tfernd/HyperTile/
-
+# Import complete
 import math
 from einops import rearrange
 # Use torch rng for consistency across generations
