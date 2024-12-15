@@ -1,5 +1,5 @@
 import comfy.utils
-
+# Import complete
 class PatchModelAddDownscale:
     upscale_methods = ["bicubic", "nearest-exact", "bilinear", "area", "bislerp"]
     @classmethod
