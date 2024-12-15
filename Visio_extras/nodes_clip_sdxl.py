@@ -17,7 +17,7 @@ class CLIPTextEncodeSDXLRefiner:
     def encode(self, clip, ascore, width, height, text):
         tokens = clip.tokenize(text)
         return (clip.encode_from_tokens_scheduled(tokens, add_dict={"aesthetic_score": ascore, "width": width, "height": height}), )
-
+# import complete
 class CLIPTextEncodeSDXL:
     @classmethod
     def INPUT_TYPES(s):
