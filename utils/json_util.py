@@ -1,5 +1,5 @@
 def merge_json_recursive(base, update):
-    """Recursively merge two JSON-like objects.
+    """Recursively merge two JSON like objects.
     - Dictionaries are merged recursively
     - Lists are concatenated
     - Other types are overwritten by the update value
