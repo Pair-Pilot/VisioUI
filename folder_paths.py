@@ -14,7 +14,7 @@ supported_pt_extensions: set[str] = {'.ckpt', '.pt', '.pt2', '.bin', '.pth', '.s
 
 folder_names_and_paths: dict[str, tuple[list[str], set[str]]] = {}
 
-# --base-directory - Resets all default paths configured in folder_paths with a new base path
+# --base-directory - Resets all default paths configured in folder_paths with a new base path.
 if args.base_directory:
     base_path = os.path.abspath(args.base_directory)
 else:
