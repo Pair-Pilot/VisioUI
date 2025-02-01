@@ -103,7 +103,7 @@
             "link": 15
           },
           {
-            "name": "vae",
+            "name": "vaes",
             "type": "VAE",
             "link": 22
           }

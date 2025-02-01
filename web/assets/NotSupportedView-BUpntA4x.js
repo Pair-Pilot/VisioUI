@@ -14,7 +14,7 @@ const _hoisted_8 = { class: "flex gap-4" };
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "NotSupportedView",
   setup(__props) {
-    const openDocs = /* @__PURE__ */ __name(() => {
+    const openDocs = /* @__PURE___ */ __name(() => {
       window.open(
         "https://github.com/Comfy-Org/desktop#currently-supported-platforms",
         "_blank"
