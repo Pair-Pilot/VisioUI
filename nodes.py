@@ -69,7 +69,7 @@ class CLIPTextEncode(ComfyNodeABC):
         tokens = clip.tokenize(text)
         return (clip.encode_from_tokens_scheduled(tokens), )
 
-
+# Lumina edit
 class ConditioningCombine:
     @classmethod
     def INPUT_TYPES(s):
