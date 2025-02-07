@@ -22,4 +22,4 @@ lint.select = [
 ]
 exclude = ["*.ipynb"]
 
-# Error catching enabled
+# Error catching enabled.
