@@ -70,7 +70,7 @@ def create_cors_middleware(allowed_origin: str):
     @web.middleware
     async def cors_middleware(request: web.Request, handler):
         if request.method == "OPTIONS":
-            # Pre-flight request. Reply successfully:
+            # Pre-flight request. Reply successfully.
             response = web.Response()
         else:
             response = await handler(request)
