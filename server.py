@@ -21,7 +21,7 @@ from io import BytesIO
 import aiohttp
 from aiohttp import web
 import logging
-# mimetypes import/fix
+# mimetypes import/fix.
 import mimetypes
 from comfy.cli_args import args
 import comfy.utils
