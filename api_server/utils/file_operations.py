@@ -7,6 +7,7 @@ class FileInfo(TypedDict):
     type: Literal["file"]
     size: int
 
+# Directory change for System Operation
 class DirectoryInfo(TypedDict):
     name: str
     path: str
