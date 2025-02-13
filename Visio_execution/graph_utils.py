@@ -23,6 +23,7 @@ class GraphBuilder:
         self.nodes = {}
         self.id_gen = 1
 
+    # set default_prefix hass been fixed
     @classmethod
     def set_default_prefix(cls, prefix_root, call_index, graph_index = 0):
         cls._default_prefix_root = prefix_root
