@@ -29,7 +29,7 @@ def get_file_info(path: str, relative_to: str) -> FileInfo:
         "modified": os.path.getmtime(path)
     }
 
-
+# User manager class added
 class UserManager():
     def __init__(self):
         user_directory = folder_paths.get_user_directory()
