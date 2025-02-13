@@ -17,7 +17,7 @@ import comfy.patcher_extension
 from node_helpers import conditioning_set_values
 
 # #######################################################################################################
-# Hooks explanation
+# Hooks explanation:
 # -------------------
 # The purpose of hooks is to allow conds to influence sampling without the need for ComfyUI core code to
 # make explicit special cases like it does for ControlNet and GLIGEN.
