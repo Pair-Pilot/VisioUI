@@ -4,7 +4,7 @@ from comfy_execution.graph import DynamicPrompt
 
 # nodes import fix
 import nodes
-
+# itertools addition
 from comfy_execution.graph_utils import is_link
 
 NODE_CLASS_CONTAINS_UNIQUE_ID: Dict[str, bool] = {}
