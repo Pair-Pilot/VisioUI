@@ -45,7 +45,7 @@ class CONDCrossAttn(CONDRegular):
 
             mult_min = math.lcm(s1[1], s2[1])
             diff = mult_min // min(s1[1], s2[1])
-            if diff > 4: #arbitrary limit on the padding because it's probably going to impact performance negatively if it's too much
+            if diff > 4: #arbitrary limit on padding because it's probably going to impact performance negatively if it's too much
                 return False
         return True
 
