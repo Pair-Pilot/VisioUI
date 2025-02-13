@@ -11,7 +11,7 @@ from functools import lru_cache
 from utils.json_util import merge_json_recursive
 
 
-# Extra locale files to load into main.json
+# Extra local files to load into main.json
 EXTRA_LOCALE_FILES = [
     "nodeDefs.json",
     "commands.json",
