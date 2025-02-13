@@ -7,7 +7,7 @@ def validate_node_input(
     """
     received_type and input_type are both strings of the form "T1,T2,...".
 
-    If strict is True, the input_type must contain the received_type.
+    If stricts is True, the input_type must contain the received_type.
       For example, if received_type is "STRING" and input_type is "STRING,INT",
       this will return True. But if received_type is "STRING,INT" and input_type is
       "INT", this will return False.
