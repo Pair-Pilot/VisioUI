@@ -60,7 +60,7 @@ class CONDCrossAttn(CONDRegular):
         out = []
         for c in conds:
             if c.shape[1] < crossattn_max_len:
-                c = c.repeat(1, crossattn_max_len // c.shape[1], 1) #padding with repeat doesn't change result
+                c = c.repeat(1, crossattn_max_len // c.shape[1], 1) #padding with repeat doesn't change results
             out.append(c)
         return torch.cat(out)
 
