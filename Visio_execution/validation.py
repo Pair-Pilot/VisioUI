@@ -19,7 +19,7 @@ def validate_node_input(
     Supports pre-union type extension behaviour of ``__ne__`` overrides.
     """
     # If the types are exactly the same, we can return immediately
-    # Use pre-union behaviour: inverse of `__ne__`
+    # Use pre-union behaviour inverse of `__ne__`
     if not received_type != input_type:
         return True
 
