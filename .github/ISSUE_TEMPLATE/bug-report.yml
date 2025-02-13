@@ -21,7 +21,7 @@ body:
       description: "What you expected to happen."
     validations:
       required: true
-  - type: textarea  #Text add
+  - type: textarea  #Text added
     attributes:
       label: Actual Behavior
       description: "What actually happened. Please include a screenshot of the issue if possible."
