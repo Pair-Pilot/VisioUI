@@ -24,7 +24,7 @@ def manual_stochastic_round_to_float8(x, dtype, generator=None):
     abs_x = x.abs()
     sign = torch.where(abs_x == 0, 0, sign)
 
-    # Combine exponent calculation and clamping
+    # Combine exponent calculation and addition of clamping
     exponent = torch.clamp(
         torch.floor(torch.log2(abs_x)) + EXPONENT_BIAS,
         0, 2**EXPONENT_BITS - 1
