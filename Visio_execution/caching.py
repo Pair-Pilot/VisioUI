@@ -2,6 +2,7 @@ import itertools
 from typing import Sequence, Mapping, Dict
 from comfy_execution.graph import DynamicPrompt
 
+# nodes import fix
 import nodes
 
 from comfy_execution.graph_utils import is_link
