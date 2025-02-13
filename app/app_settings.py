@@ -3,7 +3,7 @@ import json
 from aiohttp import web
 import logging
 
-
+# App Setting adjustments made
 class AppSettings():
     def __init__(self, user_manager):
         self.user_manager = user_manager
