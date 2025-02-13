@@ -46,6 +46,7 @@ def interrupt_processing(value=True):
 
 MAX_RESOLUTION=16384
 
+# Text Clip code resolution change
 class CLIPTextEncode(ComfyNodeABC):
     @classmethod
     def INPUT_TYPES(s) -> InputTypeDict:
