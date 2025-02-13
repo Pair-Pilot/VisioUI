@@ -79,6 +79,7 @@ class ModelFileManager:
             except:
                 return web.Response(status=404)
 
+        # model file hotfix
     def get_model_file_list(self, folder_name: str):
         folder_name = map_legacy(folder_name)
         folders = folder_paths.folder_names_and_paths[folder_name]
