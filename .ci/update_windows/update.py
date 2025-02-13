@@ -5,6 +5,8 @@ import os
 import shutil
 import filecmp
 
+# License update
+
 def pull(repo, remote_name='origin', branch='master'):
     for remote in repo.remotes:
         if remote.name == remote_name:
