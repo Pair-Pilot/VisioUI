@@ -63,7 +63,7 @@ class GraphBuilder:
         for node_id, node in self.nodes.items():
             output[node_id] = node.serialize()
         return output
-
+    # Node output replacement 
     def replace_node_output(self, node_id, index, new_value):
         node_id = self.prefix + node_id
         to_remove = []
