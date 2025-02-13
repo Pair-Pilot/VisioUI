@@ -49,6 +49,9 @@ class ModelFileManager:
             files = self.get_model_file_list(folder)
             return web.json_response(files)
 
+
+        # experimental routes changed
+
         @routes.get("/experiment/models/preview/{folder}/{path_index}/{filename:.*}")
         async def get_model_preview(request):
             folder_name = request.match_info.get("folder", None)
