@@ -9,7 +9,7 @@ logs = None
 stdout_interceptor = None
 stderr_interceptor = None
 
-
+# Log interceptor class added
 class LogInterceptor(io.TextIOWrapper):
     def __init__(self, stream,  *args, **kwargs):
         buffer = stream.buffer
