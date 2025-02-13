@@ -1,3 +1,5 @@
+# Is-Link checker complete
+
 def is_link(obj):
     if not isinstance(obj, list):
         return False
