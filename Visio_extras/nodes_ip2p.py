@@ -39,7 +39,7 @@ class InstructPixToPixConditioning:
                 c.append(n)
             out.append(c)
         return (out[0], out[1], out_latent)
-
+# Class Mappings created for main class
 NODE_CLASS_MAPPINGS = {
     "InstructPixToPixConditioning": InstructPixToPixConditioning,
 }
