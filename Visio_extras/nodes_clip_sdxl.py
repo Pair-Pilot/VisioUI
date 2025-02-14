@@ -1,5 +1,5 @@
 from nodes import MAX_RESOLUTION
-
+# Clip_Text_Encode_SDX_Refiner 
 class CLIPTextEncodeSDXLRefiner:
     @classmethod
     def INPUT_TYPES(s):
