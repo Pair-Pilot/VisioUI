@@ -1,5 +1,5 @@
 [project]
-name = "ComfyUI"
+name = "VisioUI"
 version = "0.3.14"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -21,3 +21,5 @@ lint.select = [
   "F",
 ]
 exclude = ["*.ipynb"]
+
+# Error catching enabled
