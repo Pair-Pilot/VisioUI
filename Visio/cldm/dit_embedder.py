@@ -7,7 +7,7 @@ from torch import Tensor
 
 from comfy.ldm.modules.diffusionmodules.mmdit import DismantledBlock, PatchEmbed, VectorEmbedder, TimestepEmbedder, get_2d_sincos_pos_embed_torch
 
-
+# ControlNewEmbedder created
 class ControlNetEmbedder(nn.Module):
 
     def __init__(
