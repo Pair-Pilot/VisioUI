@@ -21,7 +21,7 @@ class EmptyLTXVLatentVideo:
         latent = torch.zeros([batch_size, 128, ((length - 1) // 8) + 1, height // 32, width // 32], device=comfy.model_management.intermediate_device())
         return ({"samples": latent}, )
 
-
+ # LTXVImgToVideo done
 class LTXVImgToVideo:
     @classmethod
     def INPUT_TYPES(s):
