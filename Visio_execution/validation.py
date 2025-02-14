@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-
+# node input validated through bool
 def validate_node_input(
     received_type: str, input_type: str, strict: bool = False
 ) -> bool:
