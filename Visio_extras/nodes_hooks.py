@@ -13,7 +13,7 @@ import comfy.utils
 import folder_paths
 
 ###########################################
-# Mask, Combine, and Hook Conditioning
+# Mask, Combine, and Hook Conditioning,
 #------------------------------------------
 class PairConditioningSetProperties:
     NodeId = 'PairConditioningSetProperties'
