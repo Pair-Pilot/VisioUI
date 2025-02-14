@@ -4,7 +4,7 @@ from enum import Enum
 
 def resize_mask(mask, shape):
     return torch.nn.functional.interpolate(mask.reshape((-1, 1, mask.shape[-2], mask.shape[-1])), size=(shape[0], shape[1]), mode="bilinear").squeeze(1)
-
+# Ported_Duff_Mode using Enum
 class PorterDuffMode(Enum):
     ADD = 0
     CLEAR = 1
