@@ -21,7 +21,7 @@ def Fourier_filter(x, threshold, scale):
 
     return x_filtered.to(x.dtype)
 
-
+# Free U class for Memory Control
 class FreeU:
     @classmethod
     def INPUT_TYPES(s):
