@@ -61,7 +61,7 @@ try:
     repo.branches.local.create(backup_branch_name, repo.head.peel())
 except:
     pass
-
+# backup_branch_done
 print("checking out master branch")  # noqa: T201
 branch = repo.lookup_branch('master')
 if branch is None:
