@@ -6,7 +6,7 @@ import torch
 import comfy.utils
 import node_helpers
 
-
+# Basic_Scheduler fix for KarrasScheduler
 class BasicScheduler:
     @classmethod
     def INPUT_TYPES(s):
