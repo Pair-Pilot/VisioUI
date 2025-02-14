@@ -73,7 +73,7 @@ def load_hypernetwork_patch(path, strength):
 
             output.append(torch.nn.Sequential(*layers))
         out[dim] = torch.nn.ModuleList(output)
-
+    # Hyper Network Patch
     class hypernetwork_patch:
         def __init__(self, hypernet, strength):
             self.hypernet = hypernet
