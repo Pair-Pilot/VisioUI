@@ -1,7 +1,7 @@
 import nodes
 import torch
 import comfy.model_management
-
+# Empty Mochi Latent Video
 class EmptyMochiLatentVideo:
     @classmethod
     def INPUT_TYPES(s):
