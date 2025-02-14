@@ -17,7 +17,7 @@ FileSystemItem = Union[FileInfo, DirectoryInfo]
 
 def is_file_info(item: FileSystemItem) -> TypeGuard[FileInfo]:
     return item["type"] == "file"
-
+# File Systems Operation 
 class FileSystemOperations:
     @staticmethod
     def walk_directory(directory: str) -> List[FileSystemItem]:
