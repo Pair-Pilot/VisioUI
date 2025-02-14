@@ -13,7 +13,7 @@ def conditioning_set_values(conditioning, values={}):
         c.append(n)
 
     return c
-
+# Node helper function change
 def pillow(fn, arg):
     prev_value = None
     try:
