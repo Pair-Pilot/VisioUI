@@ -19,7 +19,7 @@ class CLIPTextEncodeFlux:
         tokens["t5xxl"] = clip.tokenize(t5xxl)["t5xxl"]
 
         return (clip.encode_from_tokens_scheduled(tokens, add_dict={"guidance": guidance}), )
-
+# Flux_Guidance class complete
 class FluxGuidance:
     @classmethod
     def INPUT_TYPES(s):
