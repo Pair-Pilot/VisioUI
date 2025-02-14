@@ -13,12 +13,12 @@ def conditioning_set_values(conditioning, values={}):
         c.append(n)
 
     return c
-# Node helper function change
+# Node helper function change.
 def pillow(fn, arg):
     prev_value = None
     try:
         x = fn(arg)
-    except (OSError, UnidentifiedImageError, ValueError): #PIL issues #4472 and #2445, also fixes ComfyUI issue 
+    except (OSError, UnidentifiedImageError, ValueError): #PIL issues #4472 and #2445, also fixes ComfyUI issue.
         prev_value = ImageFile.LOAD_TRUNCATED_IMAGES
         ImageFile.LOAD_TRUNCATED_IMAGES = True
         x = fn(arg)
