@@ -53,7 +53,7 @@ class DynamicPrompt:
 
     def get_original_prompt(self):
         return self.original_prompt
-
+ # get_input_info for valif inputs
 def get_input_info(class_def, input_name, valid_inputs=None):
     valid_inputs = valid_inputs or class_def.INPUT_TYPES()
     input_info = None
