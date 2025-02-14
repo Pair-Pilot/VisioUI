@@ -4,7 +4,7 @@ import os
 
 def normalize_path(path):
     return path.replace('\\', '/')
-
+# Load3D Dunction edited
 class Load3D():
     @classmethod
     def INPUT_TYPES(s):
