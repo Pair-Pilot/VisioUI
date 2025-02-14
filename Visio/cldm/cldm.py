@@ -7,7 +7,7 @@ import torch.nn as nn
 from ..ldm.modules.diffusionmodules.util import (
     timestep_embedding,
 )
- #cldm.py test coverage
+ # cldm.py test coverage
 from ..ldm.modules.attention import SpatialTransformer
 from ..ldm.modules.diffusionmodules.openaimodel import UNetModel, TimestepEmbedSequential, ResBlock, Downsample
 from ..ldm.util import exists
@@ -15,7 +15,7 @@ from .control_types import UNION_CONTROLNET_TYPES
 from collections import OrderedDict
 import comfy.ops
 from comfy.ldm.modules.attention import optimized_attention
-
+# classs optimizationAttention 
 class OptimizedAttention(nn.Module):
     def __init__(self, c, nhead, dropout=0.0, dtype=None, device=None, operations=None):
         super().__init__()
