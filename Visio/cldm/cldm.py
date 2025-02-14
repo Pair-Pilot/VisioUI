@@ -7,7 +7,7 @@ import torch.nn as nn
 from ..ldm.modules.diffusionmodules.util import (
     timestep_embedding,
 )
-
+ #cldm.py test coverage
 from ..ldm.modules.attention import SpatialTransformer
 from ..ldm.modules.diffusionmodules.openaimodel import UNetModel, TimestepEmbedSequential, ResBlock, Downsample
 from ..ldm.util import exists
