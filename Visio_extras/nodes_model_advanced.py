@@ -3,7 +3,7 @@ import comfy.model_sampling
 import comfy.latent_formats
 import nodes
 import torch
-
+# import complete
 class LCM(comfy.model_sampling.EPS):
     def calculate_denoised(self, sigma, model_output, model_input):
         timestep = self.timestep(sigma).view(sigma.shape[:1] + (1,) * (model_output.ndim - 1))
